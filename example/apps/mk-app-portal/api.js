@@ -6,15 +6,15 @@ export function getMeta() {
 		children: [{
 			name: 'header',
 			component: 'Layout',
-			className: 'header',
+			className: 'mk-app-portal-header',
 			children: [{
 				name: 'left',
 				component: 'Layout',
-				className: 'header-left',
+				className: 'mk-app-portal-header-left',
 				children: [{
 					name: 'logo',
 					component: '::img',
-					className: 'header-left-logo',
+					className: 'mk-app-portal-header-left-logo',
 					src: '{{$getLogo()}}'
 				}, {
 					name: 'siteName',
@@ -24,7 +24,7 @@ export function getMeta() {
 			}, {
 				name: 'right',
 				component: 'Layout',
-				className: 'header-right',
+				className: 'mk-app-portal-header-right',
 				children: [{
 					name: 'notification',
 					component: 'Icon',
@@ -36,7 +36,7 @@ export function getMeta() {
 				}, {
 					name: 'photo',
 					component: '::img',
-					className: 'header-right-photo',
+					className: 'mk-app-portal-header-right-photo',
 					src: '{{$getPhoto()}}'
 				}, {
 					name: 'my',
@@ -63,11 +63,11 @@ export function getMeta() {
 		}, {
 			name: 'content',
 			component: 'Layout',
-			className: 'content',
+			className: 'mk-app-portal-content',
 			children: [{
 				name: 'left',
 				component: 'Layout',
-				className: 'content-left',
+				className: 'mk-app-portal-content-left',
 				children: [{
 					name: 'menu',
 					component: 'Menu',
@@ -81,7 +81,7 @@ export function getMeta() {
 			}, {
 				name: 'main',
 				component: 'Layout',
-				className: 'content-main',
+				className: 'mk-app-portal-content-main',
 				children: {
 					name: 'app',
 					component: 'AppLoader',
