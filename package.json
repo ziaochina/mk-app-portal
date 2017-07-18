@@ -1,0 +1,20 @@
+{
+  "name": "mk-app-portal",
+  "version": "1.0.0",
+  "description": "mk-app-portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/mk-app-portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziaochina/mk-app-portal/issues"
+  },
+  "homepage": "https://github.com/ziaochina/mk-app-portal#readme"
+}
