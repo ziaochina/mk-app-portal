@@ -1,6 +1,8 @@
 import logo from './img/logo.png'
+import webapi from './webapi'
 
 var _options = {
+	webapi,
 	goAfterLogout: {
 		appName: 'login',
 		appParams: {}
@@ -33,10 +35,10 @@ var _options = {
 
 function config(options) {
 	if (options) {
-		_options = { ..._options, ...options }
+		Object.assign(_options, options)
 	}
 }
 
-config.getCurrent = () => _options
+config.current = _options
 
 export default config
