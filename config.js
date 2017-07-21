@@ -10,26 +10,22 @@ var _options = {
 	menu: [{
 		key: '1',
 		name: 'about',
-		app: 'mk-app-portal-about'
+		appName: 'mk-app-portal-about',
+		isDefault: true
 	}, {
 		key: '2',
 		name: 'apps',
+		isExpand:true,
 		children: [{
 			key: '201',
 			name: 'app1',
-			app: 'mk-app-portal-app1'
+			appName: 'mk-app-portal-app1'
 		}, {
 			key: '202',
 			name: 'app2',
-			app: 'mk-app-portal-app2'
+			appName: 'mk-app-portal-app2'
 		}]
 	}],
-	menuDefaultSelectedKeys: ['1'],
-	menuDefaultOpenKeys: ['2'],
-	defaultContent: {
-		appName: 'mk-app-portal-about',
-		appParams: {}
-	},
 	logo
 }
 

@@ -82,6 +82,7 @@ export function getMeta() {
 				name: 'main',
 				component: 'Layout',
 				className: 'mk-app-portal-content-main',
+				_visible: '{{!!data.content.appName}}',
 				children: {
 					name: 'app',
 					component: 'AppLoader',
