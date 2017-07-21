@@ -4,7 +4,7 @@ import webapi from './webapi'
 var _options = {
 	webapi,
 	goAfterLogout: {
-		appName: 'login',
+		appName: 'mk-app-login',
 		appParams: {}
 	},
 	menu: [{

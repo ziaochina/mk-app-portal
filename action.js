@@ -65,7 +65,6 @@ class action {
                 this.metaAction.context.set('user', undefined)
                 this.component.props.onRedirect(this.config.goAfterLogout)
             }
-
         }
     }
 }
