@@ -1,8 +1,8 @@
 {
   "_from": "mk-app-portal",
-  "_id": "mk-app-portal@1.0.4",
+  "_id": "mk-app-portal@1.0.7",
   "_inBundle": false,
-  "_integrity": "sha512-IVsF5zUZiJlZUea4Fpp2NEwI1LJEpjhTBvbiCx1igSwN7NUaXtZZUq2RAfoANRFA5o9gMpAlwr/g6qwE711fAQ==",
+  "_integrity": "sha512-RygMojIsazRYWtsNsqJSF2yXUJR+cCelKuDEx61JimY+KOdVutq3KIOi72vDdczfH8o+Y0eZUoqMudRp8KbTwg==",
   "_location": "/mk-app-portal",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +19,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mk-app-portal/-/mk-app-portal-1.0.4.tgz",
-  "_shasum": "5b4d8a210be08690d07c61a1268c96c81e9a6e64",
+  "_resolved": "https://registry.npmjs.org/mk-app-portal/-/mk-app-portal-1.0.7.tgz",
+  "_shasum": "3cd448a6398ee33a4e1785402c7cb7b4c1dbf2d4",
   "_spec": "mk-app-portal",
   "_where": "/home/zlj/my/github/self/mk-app-portal/master/example",
   "author": "",
@@ -42,5 +42,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.4"
+  "version": "1.0.7"
 }

@@ -6,10 +6,12 @@ var env = process.env.NODE_ENV
 var compress = process.env.COMPRESS
 var plugins = []
 
+//node环境变量，生产环境：production，开发环境：development
 plugins.push(new webpack.DefinePlugin({
     "process.env.NODE_ENV": JSON.stringify(env)
 }))
 
+//代码丑化
 if (env === 'production' && compress) {
     plugins.push(
         new webpack.optimize.UglifyJsPlugin({
@@ -78,7 +80,6 @@ module.exports = {
             }
         }],
     },
-
     devServer: {
         contentBase: './dist/',
         proxy: {
