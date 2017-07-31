@@ -94,5 +94,13 @@ export function getMeta() {
 	}
 }
 
-
-
+export function getInitState() {
+	return {
+		data: {
+			menu: [],
+			menuDefaultSelectedKeys: [],
+			menuDefaultOpenKeys: [],
+			content: {}
+		}
+	}
+}
