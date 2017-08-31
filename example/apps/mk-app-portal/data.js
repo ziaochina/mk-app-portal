@@ -40,7 +40,7 @@ export function getMeta() {
 						children: [{
 							name: 'icon',
 							component: 'Icon',
-							type: 'smile-o'
+							type: 'appstore-o'
 						},
 						"{{data.isTabsStyle ? '正常风格' : '多页签显示风格'}}"]
 					},{
