@@ -56,6 +56,37 @@ class action {
 
     getMenuChildren = () => {
         const menu = this.metaAction.gf('data.menu').toJS()
+
+        const loop = (children) => {
+            const ret = []
+            children.forEach(child => {
+                if (!child.children) {
+                    ret.push({
+                        name: child.key,
+                        key: child.key,
+                        component: 'Menu.Item',
+                        children: child.name
+                    })
+                }
+                else {
+                    ret.push({
+                        name: child.key,
+                        key: child.key,
+                        title: child.name,
+                        component: 'Menu.SubMenu',
+                        children: loop(child.children)
+                    })
+                }
+            })
+            return ret
+        }
+        var r = loop(menu)
+        debugger
+        return r 
+    }
+
+    getMenuChildrenback = () => {
+        const menu = this.metaAction.gf('data.menu').toJS()
         const loop = (children) => {
             const ret = []
             children.forEach(child => {
