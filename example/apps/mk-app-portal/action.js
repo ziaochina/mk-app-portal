@@ -80,25 +80,6 @@ class action {
             })
             return ret
         }
-        var r = loop(menu)
-        debugger
-        return r 
-    }
-
-    getMenuChildrenback = () => {
-        const menu = this.metaAction.gf('data.menu').toJS()
-        const loop = (children) => {
-            const ret = []
-            children.forEach(child => {
-                if (!child.children) {
-                    ret.push(<Menu.Item key={child.key}>{child.name}</Menu.Item>)
-                }
-                else {
-                    ret.push(<Menu.SubMenu key={child.key} title={child.name}>{loop(child.children)}</Menu.SubMenu>)
-                }
-            })
-            return ret
-        }
         return loop(menu)
     }
 

@@ -42,8 +42,8 @@ export function getMeta() {
 							component: 'Icon',
 							type: 'appstore-o'
 						},
-							"{{data.isTabsStyle ? '正常风格' : '多页签显示风格'}}"]
-					}, {
+						"{{data.isTabsStyle ? '正常风格' : '多页签显示风格'}}"]
+					},{
 						name: 'gitter',
 						component: 'Menu.Item',
 						key: 'gitter',
@@ -107,7 +107,6 @@ export function getMeta() {
 					defaultOpenKeys: "{{data.menuDefaultOpenKeys}}",
 					onClick: '{{$menuClick}}',
 					children: '{{$getMenuChildren()}}'
-					//children: [{ "name": "1", "key": "1", "component": "Menu.Item", "children": "about" }, { "name": "2", "key": "2", "title": "apps", "component": "Menu.SubMenu", "children": [{ "name": "201", "key": "201", "component": "Menu.Item", "children": "app1" }, { "name": "202", "key": "202", "component": "Menu.Item", "children": "app2" }] }]
 				}]
 			}, {
 				name: 'container',
@@ -122,7 +121,7 @@ export function getMeta() {
 					activeKey: '{{data.content && data.content.name}}',
 					onChange: '{{$tabChange}}',
 					onEdit: '{{$tabEdit}}',
-					_visible: '{{ data.isTabsStyle && data.openTabs && data.openTabs.length > 0}}',
+					_visible:'{{ data.isTabsStyle && data.openTabs && data.openTabs.length > 0}}',
 					children: [{
 						name: 'tab1',
 						component: 'Tabs.TabPane',
