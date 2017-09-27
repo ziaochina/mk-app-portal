@@ -84,6 +84,7 @@ class action {
             _isMeta: true,
             value: loop(menu)
         } 
+
     }
 
     topMenuClick = async (e) => {
@@ -96,7 +97,7 @@ class action {
                 }
                 break;
             case 'github':
-                window.open('https://www.github.com/ziaochina/mk-app-portal')
+                window.open('https://www.github.com/ziaochina/mk-demo')
                 break;
             case 'gitter':
                 window.open('https://gitter.im/mk-js/mk-js?utm_source=share-link&utm_medium=link&utm_campaign=share-link')
