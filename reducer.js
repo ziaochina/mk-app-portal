@@ -35,7 +35,7 @@ class reducer {
                 if(child.appName){
                     menuAppNameMap[child.appName] = {
                         name: child.name,
-                        props: {}
+                        props:  child.appParams || {}
                     }
                 }
 
