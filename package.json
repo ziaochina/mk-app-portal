@@ -1,6 +1,6 @@
 {
   "name": "mk-app-portal",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "mk-app-portal",
   "main": "index.js",
   "scripts": {
