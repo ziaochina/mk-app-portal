@@ -1,6 +1,6 @@
 {
   "name": "mk-app-portal",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "mk-app-portal",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/ziaochina/mk-app-portal/issues"
   },
-  "homepage": "https://github.com/ziaochina/mk-app-portal#readme"
+  "homepage": "https://github.com/ziaochina/mk-app-portal#readme",
+  "dependencies": {}
 }
