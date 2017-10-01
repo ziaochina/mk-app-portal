@@ -88,7 +88,7 @@ class reducer {
             return state
 
         //history增加
-        const menuAppNameMap = this.metaReducer.gf(state, 'data.menuAppNameMap')
+        let menuAppNameMap = this.metaReducer.gf(state, 'data.menuAppNameMap')
         if (name && appName && menuAppNameMap.getIn([appName, 'name']) != name) {
             menuAppNameMap = menuAppNameMap.set(appName, { name, props: appProps })
             state = this.metaReducer.sf(state, 'data.menuAppNameMap', menuAppNameMap)
