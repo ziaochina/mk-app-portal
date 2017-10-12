@@ -187,10 +187,6 @@ class action {
     foldMenu = () => {
         this.metaAction.sf('data.isShowMenu', !this.metaAction.gf('data.isShowMenu'))
 
-        var event = document.createEvent('HTMLEvents');
-        event.initEvent("resize", true, true);
-        event.eventType = 'message';
-        window.dispatchEvent(event);
     }
 }
 
