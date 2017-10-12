@@ -183,6 +183,10 @@ class action {
     setContent = (name, appName, appProps = {}) => {
         this.injections.reduce('setContent', name, appName, appProps)
     }
+
+    foldMenu = () => {
+        this.metaAction.sf('data.isShowMenu', !this.metaAction.gf('data.isShowMenu'))
+    }
 }
 
 export default function creator(option) {
