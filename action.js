@@ -25,7 +25,6 @@ class action {
 
     //history增加
     listen = (childApp, location, action) => {
-        debugger
         const currentAppName = this.metaAction.gf('data.content.appName')
         const targetAppName = childApp
         if (!targetAppName) {
