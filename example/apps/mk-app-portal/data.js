@@ -26,7 +26,7 @@ export function getMeta() {
 					name: 'foldMenu',
 					component: 'Icon',
 					type: `{{data.isFoldMenu ? 'menu-unfold' :'menu-fold'}}`,
-					title: `{{data.isFoldMenu ? '展开菜单':  '收起菜单'}}`,
+					title: '展开菜单',
 					showStyle: 'showy',
 					style: { fontSize: 19 },
 					onClick: '{{$foldMenu}}',
@@ -35,12 +35,12 @@ export function getMeta() {
 			}, {
 				name: 'right',
 				component: 'Layout',
-				className: "{{'mk-app-portal-header-right mk-app-portal-header-right-' + (data.isFoldMenu?'fold':'unfold')}}" ,
+				className: "{{'mk-app-portal-header-right mk-app-portal-header-right-' + (data.isFoldMenu?'fold':'unfold')}}",
 				children: [{
 					name: 'foldMenu',
 					component: 'Icon',
 					type: `{{data.isFoldMenu ? 'menu-unfold' :'menu-fold'}}`,
-					title: `{{data.isFoldMenu ? '展开菜单':  '收起菜单'}}`,
+					title: '收起菜单',
 					showStyle: 'showy',
 					style: { fontSize: 19 },
 					onClick: '{{$foldMenu}}',
