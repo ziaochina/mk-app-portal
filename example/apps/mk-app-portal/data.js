@@ -83,7 +83,6 @@ export function getMeta() {
 						name: 'my',
 						component: 'Menu.SubMenu',
 						key: 'my',
-						_visible: false,
 						title: {
 							name: 'myTitle',
 							component: '::span',
