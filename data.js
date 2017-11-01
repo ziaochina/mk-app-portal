@@ -68,7 +68,8 @@ export function getMeta() {
 						children: [{
 							name: 'icon',
 							component: 'Icon',
-							type: 'smile-o'
+							fontFamily: 'awesome',
+							type: 'wechat'
 						}, '聊天']
 					}, {
 						name: 'github',
@@ -167,6 +168,23 @@ export function getMeta() {
 					}
 				}]
 			}]
+		}, {
+			name: 'issue',
+			component: 'Movable',
+			_visible: false,
+			onClick: '{{$issueClick}}',
+			style: {
+				bottom: 30,
+				left: 8,
+				width: 50,
+				height: 50,
+			},
+			children: {
+				name: 'btn',
+				component: 'Button',
+				type: 'showy',
+				children: '填问题'
+			}
 		}]
 	}
 }
