@@ -1,11 +1,11 @@
 {
   "name": "mk-app-portal",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "description": "mk-app-portal",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --output-filename mk-app-login.js",
-    "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack --output-filename mk-app-login.min.js",
+    "build": "webpack --output-filename mk-app-portal.js",
+    "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack --output-filename mk-app-portal.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
