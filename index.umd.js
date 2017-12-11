@@ -6,7 +6,7 @@ import './style.less'
 
 export default {
     name: "mk-app-portal",
-    version: "1.0.46",
+    version: "1.0.47",
     description: "mk-app-portal",
     meta: data.getMeta(),
     components: [],

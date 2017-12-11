@@ -24,7 +24,7 @@ if (env === 'production' && compress) {
     )
 }
 
-const extractCSS = new ExtractTextPlugin("mk-app-login.css");
+const extractCSS = new ExtractTextPlugin("mk-app-portal.css");
 plugins.push(extractCSS)
 
 
@@ -32,7 +32,7 @@ module.exports = {
     entry: ["./index.umd.js"],
     output: {
         path: path.join(__dirname, "/dist/"),
-        library: "MKAppLogin",
+        library: "MKAppPortal",
         libraryTarget: "umd",
         publicPath: '/apps/mk-app-portal/'
     },
