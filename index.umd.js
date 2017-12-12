@@ -1,12 +1,13 @@
+__webpack_public_path__ = window["__pub_mk-app-portal__"];
 
-import config from './config'
-import * as data from './data'
-import './mock.js'
-import './style.less'
+const data = require('./data')
+const config = require('./config')
+require('./mock.js')
+require('./style.less')
 
 export default {
     name: "mk-app-portal",
-    version: "1.0.48",
+    version: "1.0.49",
     description: "mk-app-portal",
     meta: data.getMeta(),
     components: [],
