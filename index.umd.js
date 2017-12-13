@@ -7,7 +7,7 @@ require('./style.less')
 
 export default {
     name: "mk-app-portal",
-    version: "1.0.49",
+    version: "1.0.50",
     description: "mk-app-portal",
     meta: data.getMeta(),
     components: [],
